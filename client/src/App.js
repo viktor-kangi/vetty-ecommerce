@@ -4,7 +4,11 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    fetch('http://localhost:3000/products')
+    fetch('https://api-vetty-ecommerce.onrender.com/services', {
+      headers: {
+        'Access-Control-Allow-Origin': "*"
+      }
+    })
     .then(res => res.json())
     .then(data => console.log({data}))
   }, [])
