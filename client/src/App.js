@@ -1,33 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css';
-
-import LoginPage from './components/pages/LoginPage'
-import RegisterPage from './components/pages/RegisterPage'
 
 
-function App() {
-  
-  return (
-    <div className="App">
-      <BrowserRouter>
-      <Routes>
-        {/* Add your routes here */}
-      
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path='services' element={<Services />} />
-            <Route path='products' element={<Products />} />
-      </Routes>
-      </BrowserRouter>
-    </div>
-  );
-}
-
-export default App;
-
-
-
-/*import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
@@ -63,7 +36,7 @@ function App() {
   );
 }
 
-export default App;*/
+export default App;
 
 
 /*import { BrowserRouter, Route, Routes } from 'react-router-dom'
