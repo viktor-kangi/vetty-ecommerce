@@ -57,6 +57,7 @@ export default ProductDetail;*/
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import productsData from "../products/productsData";
+import "./ProductDetails.css";
 
 const ProductDetail = () => {
   const { productId } = useParams();

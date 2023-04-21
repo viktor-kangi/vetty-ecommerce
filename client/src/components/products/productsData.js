@@ -9,108 +9,143 @@ const products = [
     },
     {
       "id": 2,
-      "name": "Chicken Vaccine",
-      "description":  "A preparation that is used to stimulate the body's immune response against diseases. Vaccines are usually administered through needle injections, but some can be administered by mouth or sprayed into the nose.",
+      "name": "Snappy Tom Chunky Fish With Flaked Snapper",
+      "description":  "Natural Real Fish & Chicken Grain Free By-product Free Omega Oils No Artificial Colours, Flavours & Preservatives INGREDIENTS Quality Sardines, Red snapper, Gelling Agents, Permitted Food Colour, Taurine, Vitamins and Minerals",
       "price": 10.99,
-      image: "https://www.news-medical.net/images/news/ImageForNews_734493_16717867507843586.jpg"
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/06/Untitled-design-21-1-600x600.png"
     },
     {
       "id": 3,
-      "name": "Pet Grooming",
-      "description": "Dog grooming refers to both the hygienic care and cleaning of a dog, as well as a process by which a dog's physical appearance is enhanced for showing or other types of competition. ",
+      "name": "Grooming Glove",
+      "description": "The soft rubber material ensures a gentle massage and grooming without the painful removal of fur or irritating the skin. Afterwards your pets will have a shiny, softer coat, making your pets look healthier, happier and more beautiful. When you?re not using the gloves, just lay them out and your pets can happily brush themselves against them. Perfect for long, short and curly haired dogs, cats, horses and rabbits. ",
       "price": 20.99,
-      image: "https://lovelycutspetgrooming.com/wp-content/uploads/2014/04/Pet-Grooming-Salon.jpg"
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/Pet-Grooming-Deshedding-and-Massage-Glove-for-removing-excess-fur-in-cats-and-dogs-buy-online-in-Kenya-768x768-1.jpg"
     },
     {
       "id": 4,
-      "name": "Dog Vaccination",
-      "description": null,
+      "name": "Ankur Heavy Dish With Full Bonded Colored Rubber Base",
+      "description": "ANKUR HEAVY DISH BOWL WITH FULL BONDED COLORED RUBBER BASE",
       "price": 15.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/Ankur-Heavy-Bondend-Bowl.png"
     },
     {
       "id": 5,
-      "name": "Fish Pellets",
-      "description": null,
+      "name": "Puppy Identification Collars",
+      "description": "Muliticolored puppy colars",
       "price": 5.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/puppyidcollar1.jpg"
     },
     {
       "id": 6,
-      "name": "Chicken Vaccine",
-      "description": null,
+      "name": "Pet Air Cages",
+      "description": "Acrylic Pet Carrier – IATA Approved Cage",
       "price": 10.99,
-      image: ""
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/03/petaircage.jpg"
     },
     {
       "id": 7,
-      "name": "Pet Grooming",
-      "description": null,
+      "name": "Pet Flea Comb",
+      "description": "Pet Flea Comb",
       "price": 20.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/fleacomb.jpg"
     },
     {
       "id": 8,
-      "name": "Dog Vaccination",
-      "description": null,
+      "name": "Insectostop Spray",
+      "description": "Bob Martin Vetcare Long-Acting Tick and Flea Spray Plus",
       "price": 15.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/11/Insectostop.jpg"
     },
     {
       "id": 9,
-      "name": "Fish Pellets",
-      "description": null,
+      "name": "Gravity Pet Feeder",
+      "description": "Automatic Pet Food Feeder",
       "price": 5.99,
-      image: ""
+      image: "https://www.petzone.co.ke/wp-content/uploads/2023/02/petfeeder.jpg"
     },
     {
       "id": 10,
-      "name": "Chicken Vaccine",
-      "description": null,
+      "name": "Anti-Scratching Spray For Cats",
+      "description": "Sanipet Anti-scratching spray for cats",
       "price": 10.99,
-      image: ""
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/04/antiscratching.jpg"
     },
     {
       "id": 11,
-      "name": "Pet Grooming",
-      "description": null,
+      "name": "Ferplast Kitty Ltr Tray",
+      "description": "Crafted with a premium quality material that proffers easy cleaning. Works to prevent obesity in pets.",
       "price": 20.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/06/Untitled-design-3-1-600x600.png"
     },
     {
       "id": 12,
-      "name": "Dog Vaccination",
-      "description": null,
+      "name": "Bonnie Parrot Food",
+      "description": "Bonnie Parrot food is a mixture of specially selected grains and seeds loved by budgerigars. The wide variety of ingredients ensures that birds get all the required nutrients.",
       "price": 15.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/BONNIE-PARROT-FOOD-0.70-Kg.webp"
     },
     {
       "id": 13,
-      "name": "Fish Pellets",
-      "description": null,
+      "name": "Wwong Dog Harness- 4XL",
+      "description": "Are you tired of struggling to control your dog on walks? Introducing the No Pull Dog Harness! With two adjustable reflective vest harnesses, this innovative product is sure to make walks with your pup a breeze. Its heavy duty handle and 5 FT leash make it easy to control while the reflective material keeps your pup safe and visible during nighttime walks. Get your pup the No Pull Dog Harness today and make walking with them an enjoyable experience!",
       "price": 5.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2023/03/wwong-grouped-1.png"
     },
     {
       "id": 14,
-      "name": "Chicken Vaccine",
-      "description": null,
+      "name": "Dog Jacket With Harness",
+      "description": "Weatherproof Dog Jacket With Harness",
       "price": 10.99,
-      image: ""
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/03/waterproffjak1.jpg"
     },
     {
       "id": 15,
-      "name": "Pet Grooming",
-      "description": null,
+      "name": "PET BLANKET",
+      "description": "Warm Pet Blanket",
       "price": 20.99,
-      image: ""
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/12/petblanket.jpg"
     },
     {
       "id": 16,
-      "name": "Dog Vaccination",
-      "description": null,
+      "name": "Airdog? Dumbbell Lg",
+      "description": "KONG AirDog Squeaker Dumbell Fetch Toy ? Large",
       "price": 15.99,
-      image: ""
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/ASDB1.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Tlc Dog Shampoo 250Ml",
+      "description": "TLC Dog Shampoo retains moisture in the skin, has a mildly anti bacterial effect and is anti-inflammatory. This shampoo is particularly suitable for sensitive skin, Your furry friend deserves proper care and nurture and the first step in providing it is maintaining their hygiene at a high level.",
+      "price": 17.99,
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/09/Shampoo-1.png"
+    },
+    {
+      "id": 18,
+      "name": "Rogz Squeekz Ball Red",
+      "description": "KONG AirDog Squeaker Dumbell Fetch Toy ? Large",
+      "price": 13.99,
+      image: "https://petcentral.co.ke/wp-content/uploads/2022/08/2-SQ02-C-RED.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Bird Cage",
+      "description": "Bird Cage",
+      "price": 19.99,
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/12/birdcage.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Mantax Scaly",
+      "description": "Skin Care for Cage Birds",
+      "price": 10.99,
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/06/Mantax-Scaly.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Happy Star-Shaped Bird Playing Toy",
+      "description": "Pado Happy Star-Shaped Bird Playing Toy",
+      "price": 16.99,
+      image: "https://www.petzone.co.ke/wp-content/uploads/2021/03/starshapedbirdtoy.jpg"
     }
   ]
   module.exports = products;
