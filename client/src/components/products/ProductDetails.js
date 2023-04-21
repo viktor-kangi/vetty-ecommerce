@@ -57,7 +57,6 @@ export default ProductDetail;*/
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import productsData from "../products/productsData";
-import Cart from "./Cart";
 
 const ProductDetail = () => {
   const { productId } = useParams();
@@ -76,6 +75,7 @@ const ProductDetail = () => {
     }
     setCart(updatedCart);
     localStorage.setItem("cartItems", JSON.stringify(updatedCart));
+    navigate("/cart"); // navigate to the cart page after adding the item to the cart
   };
 
   const handleViewCart = () => {
@@ -101,12 +101,13 @@ const ProductDetail = () => {
       <div className="cart-info-container">
         <p>{cart.length} items in cart</p>
       </div>
-      <Cart cartItems={cart} />
     </div>
   );
 };
 
 export default ProductDetail;
+
+
 
 
 
